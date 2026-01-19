@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<article class="page-content portfolio-page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <div class="page-body">
+    {{ content }}
+
+    <!-- Filter Controls -->
+    <div class="portfolio-filters">
+      <div class="filter-group">
+        <label>Style:</label>
+        <div class="filter-buttons" data-filter-type="style">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="quantitative">Quantitative</button>
+          <button class="filter-btn" data-filter="policy">Policy</button>
+          <button class="filter-btn" data-filter="commentary">Commentary</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Region:</label>
+        <div class="filter-buttons" data-filter-type="region">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="twin-cities">Twin Cities</button>
+          <button class="filter-btn" data-filter="chicago">Chicago</button>
+          <button class="filter-btn" data-filter="comparative">Comparative</button>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="portfolio-search" placeholder="Search articles...">
+      </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      {% for item in site.data.writing %}
+      {% include portfolio-item.html item=item %}
+      {% endfor %}
+    </div>
+
+    <p class="no-results" style="display: none;">No articles match your filters.</p>
+  </div>
+</article>

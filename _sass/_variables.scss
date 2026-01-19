@@ -1,0 +1,78 @@
+// Colors - Professional, clean palette
+$color-primary: #1a365d;      // Deep blue - professional, academic
+$color-secondary: #2d5a87;    // Medium blue
+$color-accent: #3182ce;       // Bright blue for links/accents
+$color-accent-hover: #2c5282; // Darker on hover
+
+$color-text: #1a202c;         // Near black for body text
+$color-text-light: #4a5568;   // Gray for secondary text
+$color-text-muted: #718096;   // Lighter gray for metadata
+
+$color-bg: #ffffff;           // White background
+$color-bg-alt: #f7fafc;       // Light gray for alternating sections
+$color-bg-code: #f1f5f9;      // Code block background
+
+$color-border: #e2e8f0;       // Light border color
+$color-border-dark: #cbd5e1;  // Darker border for emphasis
+
+// Style tag colors
+$color-quantitative: #2d5a87; // Blue for data work
+$color-policy: #5b6b4f;       // Muted green for policy
+$color-commentary: #7c5c4a;   // Warm brown for essays
+
+// Typography
+$font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+$font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+// Font sizes (using modular scale)
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-md: 1.125rem;   // 18px
+$font-size-lg: 1.25rem;    // 20px
+$font-size-xl: 1.5rem;     // 24px
+$font-size-2xl: 1.875rem;  // 30px
+$font-size-3xl: 2.25rem;   // 36px
+$font-size-4xl: 3rem;      // 48px
+
+// Line heights
+$line-height-tight: 1.25;
+$line-height-base: 1.6;
+$line-height-relaxed: 1.75;
+
+// Spacing
+$spacing-xs: 0.25rem;   // 4px
+$spacing-sm: 0.5rem;    // 8px
+$spacing-md: 1rem;      // 16px
+$spacing-lg: 1.5rem;    // 24px
+$spacing-xl: 2rem;      // 32px
+$spacing-2xl: 3rem;     // 48px
+$spacing-3xl: 4rem;     // 64px
+$spacing-4xl: 6rem;     // 96px
+
+// Layout
+$max-width-content: 42rem;  // ~672px - optimal reading width
+$max-width-wide: 56rem;     // ~896px - for portfolio grid
+$max-width-full: 72rem;     // ~1152px - max container width
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Transitions
+$transition-fast: 150ms ease;
+$transition-base: 200ms ease;
+$transition-slow: 300ms ease;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+// Border radius
+$radius-sm: 0.25rem;
+$radius-md: 0.375rem;
+$radius-lg: 0.5rem;

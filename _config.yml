@@ -1,0 +1,57 @@
+# Site Settings
+title: Zak Yudhishthu
+description: Housing policy analyst and writer specializing in quantitative urban economics
+author: Zak Yudhishthu
+email: zyudhishthu@yahoo.com
+url: "" # Will be set when deploying (e.g., https://yourusername.github.io)
+baseurl: "" # Leave empty for user site, or "/repo-name" for project site
+
+# Social Links
+twitter_username: zyudhishthu
+bluesky_username: zyudhishthu
+substack_url: https://pencillingout.substack.com
+
+# Location
+location: Chicago, IL
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Sass Settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections (if you want to add blog posts later)
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Feed settings
+feed:
+  path: feed.xml

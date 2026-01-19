@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-bio">
+        <p class="footer-name">Zak Yudhishthu</p>
+        <p class="footer-tagline">Housing policy analyst & writer</p>
+        <p class="footer-location">{{ site.location }}</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:{{ site.email }}" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener" title="Twitter/X">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+        </a>
+        <a href="https://bsky.app/profile/{{ site.bluesky_username }}.bsky.social" target="_blank" rel="noopener" title="Bluesky">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.335 5.144C4.681 6.458 3 8.819 3 12c0 3.59 2.187 5.462 4.637 5.952.484.097 1.327.205 1.387-.707.047-.714-.243-3.055-.243-3.055 0 0-.535-.064-.775-.064-1.104 0-1.457.678-1.614 1.074-.18.455-.241.868-.241.868l-.995-.085s.145-1.078.58-1.853c.502-.895 1.336-1.4 2.386-1.4 1.087 0 1.88.247 1.88.247l.193-1.077s-.984-.383-2.09-.383c-2.83 0-4.105 1.7-4.105 3.728 0 2.028 1.275 3.728 4.105 3.728 1.87 0 3.001-.704 3.703-1.467.686-.748 1.04-1.714 1.161-2.633.135-1.02.116-1.888.116-2.156V9.314c0-.514.041-1.014.163-1.483.113-.434.298-.83.619-1.168.594-.624 1.545-1.043 3.045-1.043 2.36 0 3.58.997 4.13 1.61.163.182.273.358.356.508"/></svg>
+        </a>
+        <a href="{{ site.substack_url }}" target="_blank" rel="noopener" title="Substack">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16"/><path d="M4 8h16"/><path d="M4 12l8 6 8-6"/></svg>
+        </a>
+        <a href="{{ '/feed.xml' | relative_url }}" title="RSS Feed">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Zak Yudhishthu. Built with Jekyll.</p>
+    </div>
+  </div>
+</footer>

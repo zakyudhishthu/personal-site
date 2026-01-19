@@ -1,0 +1,185 @@
+# Writing Portfolio Data
+# To add a new piece: copy an entry and fill in the fields
+# style: Quantitative, Policy, or Commentary
+# region: Twin Cities, Chicago, or Comparative
+# topics: array of relevant tags
+
+# =============================================================================
+# QUANTITATIVE ANALYSIS & RESEARCH
+# =============================================================================
+
+- title: "Chicago's downtown family boom"
+  publication: Pencilling Out
+  date: 2025-11-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Census data analysis examining family growth in downtown Chicago, housing unit composition by bedroom count, and demographic shifts in the urban core."
+  style: Quantitative
+  region: Chicago
+  topics:
+    - Neighborhood Change
+    - Data Visualization
+  featured: true
+
+- title: "How Logan Square shrank"
+  publication: Pencilling Out
+  date: 2024-11-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Analysis of population decline in Logan Square using Census data, examining deconversions, household size dynamics, and housing unit changes."
+  style: Quantitative
+  region: Chicago
+  topics:
+    - Neighborhood Change
+    - Deconversions
+
+- title: "Family growth, deconversions and housing supply in North Center"
+  publication: Pencilling Out
+  date: 2025-01-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Neighborhood-level analysis of housing and demographic data in North Center, examining the relationship between family growth and housing supply changes."
+  style: Quantitative
+  region: Chicago
+  topics:
+    - Deconversions
+    - Neighborhood Change
+  featured: true
+
+- title: "Minneapolis' Natural Upzoning Experiment"
+  publication: Streets.mn
+  date: 2024-07-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Mapping and statistical analysis of building permits and housing development patterns following the Minneapolis 2040 comprehensive plan."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+    - Missing Middle
+    - Data Visualization
+  featured: true
+
+- title: "Map of the Day: Substandard Lot Sizes in Minneapolis"
+  publication: Streets.mn
+  date: 2020-11-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Parcel-level data analysis and visualization examining lot size distributions and zoning nonconformity across Minneapolis neighborhoods."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Lot Size
+    - Data Visualization
+
+- title: "Saint Paul's zoning reforms show some early results"
+  publication: Pencilling Out
+  date: 2025-02-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Early quantitative evaluation of Saint Paul's zoning reform implementation, examining permit data and development patterns."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "Solving Minneapolis' Housing Affordability Impasse"
+  publication: Streets.mn
+  date: 2025-07-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Rent data analysis and examination of parking construction trends to understand affordability dynamics in Minneapolis."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+# =============================================================================
+# POLICY ADVOCACY & ARGUMENTATION
+# =============================================================================
+
+- title: "Minneapolis Should Get Rid of Minimum Lot Size Requirements"
+  publication: Streets.mn
+  date: 2020-10-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Policy argument for eliminating minimum lot size requirements, supported by data analysis of their effects on housing supply and affordability."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Lot Size
+    - Zoning Reform
+
+- title: "Who Pays for Inclusionary Zoning?"
+  publication: Pencilling Out
+  date: 2024-10-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Theoretical and empirical analysis of inclusionary zoning policy incidence, examining who bears the costs of affordable housing mandates."
+  style: Policy
+  region: Comparative
+  topics:
+    - Inclusionary Zoning
+
+- title: "Assessing Minneapolis' Inclusionary Zoning Policy"
+  publication: Streets.mn
+  date: 2024-10-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Policy evaluation of Minneapolis's inclusionary zoning requirements, examining implementation outcomes and design considerations."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Inclusionary Zoning
+
+- title: "The 2040 Plan Can Deliver on Denser Housing"
+  publication: Southwest Voices
+  date: 2023-01-01
+  url: "#"  # Update with actual URL
+  description: "Policy assessment and advocacy piece examining the Minneapolis 2040 plan's potential to increase housing density and affordability."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+    - Missing Middle
+
+- title: "Zoning Reform Takes a Positive First Step at the Legislature"
+  publication: Streets.mn
+  date: 2024-02-01
+  url: "https://streets.mn/"  # Update with actual URL
+  description: "Legislative analysis of HF4246, Minnesota's state-level zoning reform bill, including perspectives from testimony at the Legislature."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "A history of zoning in Chicago: three takeaways"
+  publication: Pencilling Out
+  date: 2025-05-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Historical analysis of Chicago's zoning evolution, examining Planned Developments, aldermanic privilege, and institutional path dependencies."
+  style: Policy
+  region: Chicago
+  topics:
+    - Zoning Reform
+
+# =============================================================================
+# URBAN LIFE & COMMENTARY
+# =============================================================================
+
+- title: "Comparing Chicago's Bean to Twin Cities public art"
+  publication: Racket
+  date: 2024-01-01
+  url: "#"  # Update with actual URL
+  description: "Cultural essay comparing public art and urban identity in Chicago and the Twin Cities, examining how cities express themselves through shared spaces."
+  style: Commentary
+  region: Comparative
+  topics: []
+
+- title: "On immigration and a more positive-sum future"
+  publication: Star Tribune / Pencilling Out
+  date: 2024-11-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Personal narrative and policy reflection on immigration, combining personal experience with broader arguments about urban growth and economic dynamism."
+  style: Commentary
+  region: Comparative
+  topics: []
+
+- title: "My 2024 year in books"
+  publication: Pencilling Out
+  date: 2024-12-01
+  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  description: "Reflections on a year of reading focused on urban history, housing economics, and the intellectual development of my policy perspective."
+  style: Commentary
+  region: Comparative
+  topics: []

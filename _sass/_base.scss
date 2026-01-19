@@ -1,0 +1,208 @@
+// Reset and base styles
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 17px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text;
+  background-color: $color-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-sans;
+  font-weight: 600;
+  line-height: $line-height-tight;
+  color: $color-primary;
+  margin-top: 0;
+  margin-bottom: $spacing-md;
+}
+
+h1 {
+  font-size: $font-size-3xl;
+  font-weight: 700;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-4xl;
+  }
+}
+
+h2 {
+  font-size: $font-size-2xl;
+  margin-top: $spacing-2xl;
+}
+
+h3 {
+  font-size: $font-size-xl;
+  margin-top: $spacing-xl;
+}
+
+h4 {
+  font-size: $font-size-lg;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: $spacing-lg;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-accent-hover;
+    text-decoration: underline;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-top: 0;
+  margin-bottom: $spacing-lg;
+  padding-left: $spacing-xl;
+}
+
+li {
+  margin-bottom: $spacing-sm;
+}
+
+// Blockquotes
+blockquote {
+  margin: $spacing-xl 0;
+  padding: $spacing-md $spacing-lg;
+  border-left: 4px solid $color-accent;
+  background-color: $color-bg-alt;
+  font-style: italic;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Code
+code {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  background-color: $color-bg-code;
+  border-radius: $radius-sm;
+}
+
+pre {
+  font-family: $font-mono;
+  font-size: $font-size-sm;
+  padding: $spacing-lg;
+  background-color: $color-bg-code;
+  border-radius: $radius-md;
+  overflow-x: auto;
+  margin: $spacing-xl 0;
+
+  code {
+    padding: 0;
+    background: none;
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure {
+  margin: $spacing-xl 0;
+
+  img {
+    border-radius: $radius-md;
+    box-shadow: $shadow-md;
+  }
+
+  figcaption {
+    margin-top: $spacing-sm;
+    font-size: $font-size-sm;
+    color: $color-text-muted;
+    text-align: center;
+  }
+}
+
+// Horizontal rule
+hr {
+  border: none;
+  border-top: 1px solid $color-border;
+  margin: $spacing-2xl 0;
+}
+
+// Selection
+::selection {
+  background-color: rgba($color-accent, 0.2);
+}
+
+// Focus styles for accessibility
+:focus-visible {
+  outline: 2px solid $color-accent;
+  outline-offset: 2px;
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-xl 0;
+  font-size: $font-size-sm;
+}
+
+th, td {
+  padding: $spacing-sm $spacing-md;
+  text-align: left;
+  border-bottom: 1px solid $color-border;
+}
+
+th {
+  font-family: $font-sans;
+  font-weight: 600;
+  color: $color-primary;
+  background-color: $color-bg-alt;
+}
+
+// Utility classes
+.text-muted {
+  color: $color-text-muted;
+}
+
+.text-small {
+  font-size: $font-size-sm;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

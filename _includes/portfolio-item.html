@@ -1,0 +1,34 @@
+<article class="portfolio-item"
+         data-style="{{ include.item.style | downcase }}"
+         data-region="{{ include.item.region | downcase | replace: ' ', '-' }}"
+         data-topics="{{ include.item.topics | join: ',' | downcase | replace: ' ', '-' }}"
+         {% if include.item.featured %}data-featured="true"{% endif %}>
+
+  <div class="portfolio-item-content">
+    <header class="portfolio-item-header">
+      <h3 class="portfolio-item-title">
+        <a href="{{ include.item.url }}" target="_blank" rel="noopener">{{ include.item.title }}</a>
+      </h3>
+      <div class="portfolio-item-meta">
+        <span class="publication">{{ include.item.publication }}</span>
+        <span class="separator">&middot;</span>
+        <time datetime="{{ include.item.date }}">{{ include.item.date | date: "%B %Y" }}</time>
+      </div>
+    </header>
+
+    <p class="portfolio-item-description">{{ include.item.description }}</p>
+
+    <footer class="portfolio-item-footer">
+      <div class="portfolio-item-tags">
+        <span class="tag tag-style tag-{{ include.item.style | downcase }}">{{ include.item.style }}</span>
+        <span class="tag tag-region">{{ include.item.region }}</span>
+        {% for topic in include.item.topics %}
+        <span class="tag tag-topic">{{ topic }}</span>
+        {% endfor %}
+      </div>
+      {% if include.item.featured %}
+      <span class="featured-badge">Featured</span>
+      {% endif %}
+    </footer>
+  </div>
+</article>
