@@ -3,8 +3,8 @@ title: Zak Yudhishthu
 description: Housing policy analyst and writer specializing in quantitative urban economics
 author: Zak Yudhishthu
 email: zyudhishthu@yahoo.com
-url: "" # Will be set when deploying (e.g., https://yourusername.github.io)
-baseurl: "" # Leave empty for user site, or "/repo-name" for project site
+url: "https://yourusername.github.io"
+baseurl: "/reponame"
 
 # Social Links
 twitter_username: zyudhishthu
