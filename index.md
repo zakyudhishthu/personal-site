@@ -7,9 +7,8 @@ title: About
   <div class="intro-with-photo">
     <img src="{{ '/assets/images/headshot_09_2023.png' | relative_url }}" alt="Zak Yudhishthu" class="headshot">
     <div class="intro-text">
-      <p class="home-greeting">Hello, I'm</p>
       <h1 class="home-name">Zak Yudhishthu</h1>
-      <p class="home-tagline">Housing policy analyst and writer specializing in quantitative urban economics. I use data to understand how cities work and how policy can make them better.</p>
+      <p class="home-tagline">Researcher and writer interested in quantitative urban economics and housing policy. I try to combine data and policy analysis to understand how cities work, and how we can make them better.</p>
     </div>
   </div>
 </div>
@@ -18,8 +17,9 @@ title: About
 
 ## What I Do
 
-I analyze housing markets and urban policy using Census and American Community Survey data, statistical methods including hedonic regression, and data visualization in R. My work bridges the gap between rigorous quantitative analysis and accessible policy writing.
+I analyze housing markets and urban policy using various public datasets and data analysis tools, primarily using R. I aspire to cmobine rigorous quantitative analysis with accessible policy writing.
 
+Initially, my geographic focus 
 My geographic focus has evolved from the **Twin Cities**, where I was involved in local housing advocacy and served on the board of Sustain Saint Paul, to **Chicago**, where I now work as an economic research assistant and continue to write about neighborhood change and housing dynamics.
 
 My writing spans three modes: **quantitative research** that digs into demographic trends and housing data, **policy advocacy** that makes the case for specific reforms, and **broader commentary** on urban life and the intellectual questions that animate this work.
@@ -30,9 +30,13 @@ My writing spans three modes: **quantitative research** that digs into demograph
 
 ## Background
 
-I graduated from **Macalester College** in 2024 with a major in Economics and minors in Statistics and Music. During my time in St. Paul, I became deeply engaged with Twin Cities housing policy—writing for Streets.mn and Minnesota Reformer, testifying at the Minnesota Legislature on zoning reform (HF4246), and serving on the board of Sustain Saint Paul.
+I graduated from **Macalester College** in 2024 with a major in Economics and a minor Music. During my time in St. Paul, I became deeply engaged with Twin Cities housing policy—writing for a variety of local outlets. I also had first-hand engagement with state and local public policy, serving as a board member with Sustain Saint Paul, interning with local community development organizations, and volunteering in support of multiple urbanist-oriented policy efforts.
 
-Now based in Chicago, I continue writing at [Pencilling Out](https://pencillingout.substack.com), my Substack with 537+ subscribers, while working as an economic research assistant. I'm particularly interested in how Chicago's housing dynamics compare to the Twin Cities and what each region can learn from the other.
+I'm now based in Chicago, writing at the Substack [Pencilling Out](https://pencillingout.substack.com).
+
+In my day job, I'm a research assistant with the Financial Economics group at the Federal Reserve Bank of Chicago. In this role, I contribute to research projects focused on homeowners' insurance and mortgage access, as well as corporate finance. 
+
+The views expressed in articles and other content on this website are those of the authors and don't necessarily reflect the position of the Federal Reserve Bank of Chicago or the Federal Reserve System.
 
 </section>
 
@@ -63,7 +67,7 @@ Now based in Chicago, I continue writing at [Pencilling Out](https://pencillingo
 
 ## Get in Touch
 
-I'm always interested in conversations about housing policy, urban economics, and data analysis. You can find me on [Twitter/X](https://twitter.com/zyudhishthu) and [Bluesky](https://bsky.app/profile/zyudhishthu.bsky.social) at @zyudhishthu, or subscribe to [Pencilling Out](https://pencillingout.substack.com) for my latest writing.
+I'm always interested in chatting about housing policy, urban economics, and data analysis. You can find me on [Twitter/X](https://twitter.com/zyudhishthu) and [Bluesky](https://bsky.app/profile/zyudhishthu.bsky.social) at @zyudhishthu, or subscribe to [Pencilling Out](https://pencillingout.substack.com) for my latest writing.
 
 For professional inquiries, reach me at [zyudhishthu@yahoo.com](mailto:zyudhishthu@yahoo.com).
 
