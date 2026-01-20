@@ -144,6 +144,40 @@ See [GitHub's custom domain documentation](https://docs.github.com/en/pages/conf
 
 ## Updating Content
 
+### Editing Page Text
+
+Each page is a Markdown file in the root directory. Open the file in any text editor to change the content.
+
+| Page | File to Edit |
+|------|--------------|
+| Home/About | `index.md` |
+| Writing | `writing.md` |
+| Research | `research.md` |
+| Contact/CV | `contact.md` |
+
+**How to edit:**
+
+1. Open the file (e.g., `index.md`) in a text editor
+2. The top section between `---` marks is called "front matter" - this controls the page title and layout. Usually you won't need to change this.
+3. Everything below the second `---` is the page content in Markdown format
+4. Save your changes
+5. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Update page content"
+   git push
+   ```
+
+**Markdown basics:**
+- `## Heading` creates a section heading
+- `**bold text**` makes text bold
+- `*italic text*` makes text italic
+- `- item` creates a bullet point
+- `[link text](https://url.com)` creates a link
+
+**HTML in pages:**
+Some sections use HTML for styling (like `<div class="card">...</div>`). You can edit the text inside these tags, just don't delete the tags themselves.
+
 ### Adding a New Article to Your Portfolio
 
 1. Open `_data/writing.yml`
@@ -169,14 +203,6 @@ git add _data/writing.yml
 git commit -m "Add new article: Your Article Title"
 git push
 ```
-
-### Editing Page Content
-
-- **Home/About**: Edit `index.md`
-- **Writing intro**: Edit `writing.md`
-- **Research**: Edit `research.md`
-- **Current Work**: Edit `current-work.md`
-- **Contact/CV**: Edit `contact.md`
 
 ### Adding Images/Visualizations
 
@@ -268,7 +294,6 @@ $color-commentary: #7c5c4a;
 ├── index.md              # Home/About page
 ├── writing.md            # Portfolio page
 ├── research.md           # Research & Methods
-├── current-work.md       # Current Work
 ├── contact.md            # Contact/CV
 ├── feed.xml              # RSS feed
 ├── Gemfile               # Ruby dependencies

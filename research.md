@@ -158,4 +158,44 @@ Beyond specific policy questions, I'm interested in:
   </a>
 </div>
 
+<div class="viz-item">
+  <a href="https://streets.mn/2023/10/24/mapping-minneapolis-duplexes-and-triplexes/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/minneapolis_upzoning_experiment.png' | relative_url }}" alt="Minneapolis upzoning map visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">Mapping Minneapolis' Post-2040 Plan Duplexes and Triplexes</p>
+      <p class="viz-publication">Streets.mn</p>
+    </div>
+  </a>
+</div>
+
+<div class="viz-item">
+  <a href="https://pencillingout.substack.com/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/history_zoning_chicago.webp' | relative_url }}" alt="Chicago zoning history visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">A history of zoning in Chicago: three takeaways</p>
+      <p class="viz-publication">Pencilling Out</p>
+    </div>
+  </a>
+</div>
+
+<div class="viz-item">
+  <a href="https://www.southwestvoices.news/posts/2040-plan-can-deliver-on-denser-housing" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/boost_density_restricting.webp' | relative_url }}" alt="Minneapolis 2040 density visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">The 2040 Plan Can Deliver on Denser Housing</p>
+      <p class="viz-publication">Southwest Voices</p>
+    </div>
+  </a>
+</div>
+
+<div class="viz-item">
+  <a href="#" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/loon_sculpture.webp' | relative_url }}" alt="Twin Cities public art">
+    <div class="viz-overlay">
+      <p class="viz-title">Comparing Chicago's Bean to Twin Cities public art</p>
+      <p class="viz-publication">Racket</p>
+    </div>
+  </a>
+</div>
+
 </div>
