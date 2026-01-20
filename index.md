@@ -4,9 +4,14 @@ title: About
 ---
 
 <div class="home-intro">
-  <p class="home-greeting">Hello, I'm</p>
-  <h1 class="home-name">Zak Yudhishthu</h1>
-  <p class="home-tagline">Housing policy analyst and writer specializing in quantitative urban economics. I use data to understand how cities work and how policy can make them better.</p>
+  <div class="intro-with-photo">
+    <img src="{{ '/assets/images/headshot_09_2023.png' | relative_url }}" alt="Zak Yudhishthu" class="headshot">
+    <div class="intro-text">
+      <p class="home-greeting">Hello, I'm</p>
+      <h1 class="home-name">Zak Yudhishthu</h1>
+      <p class="home-tagline">Housing policy analyst and writer specializing in quantitative urban economics. I use data to understand how cities work and how policy can make them better.</p>
+    </div>
+  </div>
 </div>
 
 <section class="home-section">

@@ -150,3 +150,10 @@ Testified on HF4246, state-level zoning reform legislation, before the Housing F
 I'm interested in collaborations on housing research, data visualization projects, and policy analysis. If you're working on housing issues in the Twin Cities, Chicago, or elsewhere and think my skills could be useful, please reach out.
 
 I'm also happy to discuss my research, share data sources, or talk through analytical approaches with other housing researchers and advocates.
+
+---
+
+<figure class="page-artwork">
+  <img src="{{ '/assets/images/lower_manhattan.jpeg' | relative_url }}" alt="Lower Manhattan by Howard Cook">
+  <figcaption>Howard Cook, <em>Lower Manhattan</em></figcaption>
+</figure>
