@@ -137,18 +137,54 @@ Beyond specific policy questions, I'm interested in:
 
 <div class="viz-gallery">
 
-<!-- TEMPLATE: Copy this block for each visualization you add
 <div class="viz-item">
-  <a href="ARTICLE_URL" target="_blank" rel="noopener">
-    <img src="{{ '/assets/images/YOUR_IMAGE.png' | relative_url }}" alt="Description">
+  <a href="https://citythatworks.substack.com/p/chicago-has-a-market-for-parking" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/chicago_parking_reform.webp' | relative_url }}" alt="Chicago parking reform data visualization">
     <div class="viz-overlay">
-      <p class="viz-title">Article Title Here</p>
+      <p class="viz-title">Chicago has a market for parking reform</p>
+      <p class="viz-publication">A City That Works</p>
+    </div>
+  </a>
+</div>
+
+<div class="viz-item">
+  <a href="https://pencillingout.substack.com/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/downtown_family_boom.webp' | relative_url }}" alt="Downtown Chicago family growth visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">Chicago's downtown family boom</p>
       <p class="viz-publication">Pencilling Out</p>
     </div>
   </a>
 </div>
--->
 
+<div class="viz-item">
+  <a href="https://pencillingout.substack.com/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/logan_shrank.webp' | relative_url }}" alt="Logan Square population change visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">How Logan Square shrank</p>
+      <p class="viz-publication">Pencilling Out</p>
+    </div>
+  </a>
 </div>
 
-*Add images to `assets/images/` and uncomment the template above to display them.*
+<div class="viz-item">
+  <a href="https://streets.mn/2025/02/14/minneapolis-housing-market-suffers-from-success/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/minneapolis_suffering_success.webp' | relative_url }}" alt="Minneapolis housing market visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">Is Minneapolis' Housing Market Suffering From Success?</p>
+      <p class="viz-publication">Streets.mn</p>
+    </div>
+  </a>
+</div>
+
+<div class="viz-item">
+  <a href="https://minnesotareformer.com/2023/08/31/ending-minimum-parking-requirements-was-a-policy-win-for-the-twin-cities/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/chart_gallery/minnesota_minimum_parking.png' | relative_url }}" alt="Minnesota parking requirements visualization">
+    <div class="viz-overlay">
+      <p class="viz-title">Ending minimum parking requirements was a policy win</p>
+      <p class="viz-publication">Minnesota Reformer</p>
+    </div>
+  </a>
+</div>
+
+</div>
