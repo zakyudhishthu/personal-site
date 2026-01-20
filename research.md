@@ -135,7 +135,20 @@ Beyond specific policy questions, I'm interested in:
 
 ## Sample Visualizations
 
-*Coming soon: A gallery of data visualizations demonstrating different analytical approaches—demographic trends, permit mapping, price analysis, and more.*
-
 <div class="viz-gallery">
+
+<!-- TEMPLATE: Copy this block for each visualization you add
+<div class="viz-item">
+  <a href="ARTICLE_URL" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/YOUR_IMAGE.png' | relative_url }}" alt="Description">
+    <div class="viz-overlay">
+      <p class="viz-title">Article Title Here</p>
+      <p class="viz-publication">Pencilling Out</p>
+    </div>
+  </a>
 </div>
+-->
+
+</div>
+
+*Add images to `assets/images/` and uncomment the template above to display them.*

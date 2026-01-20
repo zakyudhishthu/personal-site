@@ -463,7 +463,7 @@
   }
 }
 
-// Image gallery for visualizations
+// Image gallery for visualizations with hover effect
 .viz-gallery {
   display: grid;
   gap: $spacing-lg;
@@ -479,6 +479,72 @@
 }
 
 .viz-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: $radius-md;
+  border: 1px solid $color-border;
+  background-color: $color-bg-alt;
+  transition: all $transition-base;
+
+  &:hover {
+    border-color: $color-accent;
+    box-shadow: $shadow-md;
+
+    .viz-overlay {
+      opacity: 1;
+    }
+
+    img {
+      transform: scale(1.02);
+    }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    transition: transform $transition-base;
+  }
+
+  .viz-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: $spacing-lg $spacing-md;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+    opacity: 0;
+    transition: opacity $transition-base;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .viz-title {
+    font-family: $font-sans;
+    font-size: $font-size-sm;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 $spacing-xs 0;
+    line-height: $line-height-tight;
+  }
+
+  .viz-publication {
+    font-family: $font-sans;
+    font-size: $font-size-xs;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+  }
+}
+
+// Simple viz item without hover (for static display)
+.viz-item-simple {
   figure {
     margin: 0;
   }
