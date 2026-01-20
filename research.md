@@ -17,7 +17,7 @@ I combine quantitative methods with accessible policy writing to make housing re
 
 <details class="methodology-note">
 <summary>A note on methodology</summary>
-<div class="methodology-content">
+<div class="methodology-content" markdown="1">
 
 My approach prioritizes both rigor and accessibility. I use standard econometric techniques—hedonic regression, difference-in-differences where appropriate, careful attention to confounding—while presenting results in ways that policy audiences can understand and use. The "residualized bins" approach, for instance, allows me to show regression relationships visually while controlling for covariates.
 
@@ -28,60 +28,60 @@ My approach prioritizes both rigor and accessibility. I use standard econometric
 
 ## Research Areas
 
-### Twin Cities (2020–2024)
+<h3>Twin Cities (2020–2024)</h3>
 
 <div class="card-grid">
 
-<div class="card">
-<h3>Minneapolis 2040 Plan</h3>
+<div class="card" markdown="1">
+<h4>Minneapolis 2040 Plan</h4>
 
 Evaluation of development outcomes following Minneapolis's landmark comprehensive plan, including mapping permit data, analyzing housing type mix, and assessing early impacts on housing supply and prices.
 </div>
 
-<div class="card">
-<h3>Lot Size Regulations</h3>
+<div class="card" markdown="1">
+<h4>Lot Size Regulations</h4>
 
 Research on minimum lot size requirements and their effects on housing affordability, supply, and neighborhood character. Includes parcel-level analysis and hedonic regression work (forthcoming).
 </div>
 
-<div class="card">
-<h3>Inclusionary Zoning</h3>
+<div class="card" markdown="1">
+<h4>Inclusionary Zoning</h4>
 
 Analysis of policy design choices in inclusionary zoning programs, including who bears the costs of affordability mandates and how program features affect housing production.
 </div>
 
-<div class="card">
-<h3>State Zoning Reform</h3>
+<div class="card" markdown="1">
+<h4>State Zoning Reform</h4>
 
 Analysis of Minnesota's HF4246 and the politics of state preemption of local zoning, including testimony at the Legislature and ongoing coverage of reform efforts.
 </div>
 
 </div>
 
-### Chicago (2024–present)
+<h3>Chicago (2024–present)</h3>
 
 <div class="card-grid">
 
-<div class="card">
-<h3>Neighborhood Demographics</h3>
+<div class="card" markdown="1">
+<h4>Neighborhood Demographics</h4>
 
 Census/ACS analysis of demographic change in Chicago neighborhoods—Logan Square, North Center, Lake View, downtown—focusing on population, household composition, and housing unit dynamics.
 </div>
 
-<div class="card">
-<h3>Deconversions</h3>
+<div class="card" markdown="1">
+<h4>Deconversions</h4>
 
 Research on housing deconversions (multi-unit to single-family conversions) and their impact on neighborhood composition, affordability, and population capacity.
 </div>
 
-<div class="card">
-<h3>Family Housing Patterns</h3>
+<div class="card" markdown="1">
+<h4>Family Housing Patterns</h4>
 
 Analysis of where families with children live in Chicago, bedroom mix in new construction, and how housing supply shapes demographic outcomes.
 </div>
 
-<div class="card">
-<h3>Chicago Zoning History</h3>
+<div class="card" markdown="1">
+<h4>Chicago Zoning History</h4>
 
 Research on Chicago's zoning evolution, the Planned Development process, aldermanic privilege, and how institutional history shapes current policy debates.
 </div>
@@ -106,11 +106,11 @@ Beyond specific policy questions, I'm interested in:
 
 ## Data Sources & Tools
 
-<div class="two-column">
+<div class="two-column" markdown="1">
 
-<div>
+<div markdown="1">
 
-### Primary Data Sources
+**Primary Data Sources**
 - American Community Survey (1-year and 5-year estimates)
 - Decennial Census
 - IPUMS NHGIS for historical tract data
@@ -119,9 +119,9 @@ Beyond specific policy questions, I'm interested in:
 
 </div>
 
-<div>
+<div markdown="1">
 
-### Technical Stack
+**Technical Stack**
 - **R** (tidyverse, ggplot2, sf, tidycensus)
 - Statistical methods (OLS, hedonic regression, diff-in-diff)
 - GIS and spatial analysis
@@ -138,6 +138,4 @@ Beyond specific policy questions, I'm interested in:
 *Coming soon: A gallery of data visualizations demonstrating different analytical approaches—demographic trends, permit mapping, price analysis, and more.*
 
 <div class="viz-gallery">
-<!-- Placeholder for visualization images -->
-<!-- Add images to assets/images/ and reference them here -->
 </div>

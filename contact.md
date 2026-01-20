@@ -47,13 +47,14 @@ My work has appeared in:
 
 ## CV
 
-<section class="cv-section">
+<section class="cv-section" markdown="1">
 
 ### Education
 
-<div class="cv-entry">
-<h3>Macalester College</h3>
-<p class="cv-meta">B.A., 2024 · St. Paul, MN</p>
+<div class="cv-entry" markdown="1">
+
+**Macalester College**
+*B.A., 2024 · St. Paul, MN*
 
 - **Major:** Economics
 - **Minors:** Statistics, Music
@@ -62,21 +63,23 @@ My work has appeared in:
 </div>
 </section>
 
-<section class="cv-section">
+<section class="cv-section" markdown="1">
 
 ### Experience
 
-<div class="cv-entry">
-<h3>Economic Research Assistant</h3>
-<p class="cv-meta">Chicago, IL · 2024–present</p>
+<div class="cv-entry" markdown="1">
+
+**Economic Research Assistant**
+*Chicago, IL · 2024–present*
 
 Quantitative research support including data analysis, literature review, and statistical work.
 
 </div>
 
-<div class="cv-entry">
-<h3>Board Member, Sustain Saint Paul</h3>
-<p class="cv-meta">St. Paul, MN · 2022–2024</p>
+<div class="cv-entry" markdown="1">
+
+**Board Member, Sustain Saint Paul**
+*St. Paul, MN · 2022–2024*
 
 Contributed to housing policy advocacy in St. Paul, including engagement with city planning processes and public testimony.
 
@@ -84,13 +87,14 @@ Contributed to housing policy advocacy in St. Paul, including engagement with ci
 
 </section>
 
-<section class="cv-section">
+<section class="cv-section" markdown="1">
 
 ### Policy Engagement
 
-<div class="cv-entry">
-<h3>Minnesota Legislature Testimony</h3>
-<p class="cv-meta">February 2024</p>
+<div class="cv-entry" markdown="1">
+
+**Minnesota Legislature Testimony**
+*February 2024*
 
 Testified on HF4246, state-level zoning reform legislation, before the Housing Finance and Policy Committee.
 
@@ -98,7 +102,7 @@ Testified on HF4246, state-level zoning reform legislation, before the Housing F
 
 </section>
 
-<section class="cv-section">
+<section class="cv-section" markdown="1">
 
 ### Technical Skills
 
@@ -116,12 +120,12 @@ Testified on HF4246, state-level zoning reform legislation, before the Housing F
 
 </section>
 
-<section class="cv-section">
+<section class="cv-section" markdown="1">
 
 ### Geographic Expertise
 
-<div class="two-column">
-<div>
+<div class="two-column" markdown="1">
+<div markdown="1">
 
 **Twin Cities (extensive)**
 - Minneapolis zoning and development
@@ -130,7 +134,7 @@ Testified on HF4246, state-level zoning reform legislation, before the Housing F
 - State-level policy environment
 
 </div>
-<div>
+<div markdown="1">
 
 **Chicago (expanding)**
 - Neighborhood demographics
@@ -145,15 +149,7 @@ Testified on HF4246, state-level zoning reform legislation, before the Housing F
 
 ---
 
-## Work With Me
-
-I'm interested in collaborations on housing research, data visualization projects, and policy analysis. If you're working on housing issues in the Twin Cities, Chicago, or elsewhere and think my skills could be useful, please reach out.
-
-I'm also happy to discuss my research, share data sources, or talk through analytical approaches with other housing researchers and advocates.
-
----
-
-<figure class="page-artwork">
+<figure class="page-artwork-large">
   <img src="{{ '/assets/images/lower_manhattan.jpeg' | relative_url }}" alt="Lower Manhattan by Howard Cook">
   <figcaption>Howard Cook, <em>Lower Manhattan</em></figcaption>
 </figure>
