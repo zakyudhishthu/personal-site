@@ -189,7 +189,7 @@ Beyond specific policy questions, I'm interested in:
 </div>
 
 <div class="viz-item">
-  <a href="#" target="_blank" rel="noopener">
+  <a href="https://racketmn.com/how-st-pauls-new-loon-sculpture-is-and-isnt-like-chicagos-bean" target="_blank" rel="noopener">
     <img src="{{ '/assets/images/chart_gallery/loon_sculpture.webp' | relative_url }}" alt="Twin Cities public art">
     <div class="viz-overlay">
       <p class="viz-title">Comparing Chicago's Bean to Twin Cities public art</p>
