@@ -11,7 +11,7 @@
 - title: "Chicago's downtown family boom"
   publication: Pencilling Out
   date: 2025-11-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Census data analysis examining family growth in downtown Chicago, housing unit composition by bedroom count, and demographic shifts in the urban core."
   style: Quantitative
   region: Chicago
@@ -20,10 +20,44 @@
     - Data Visualization
   featured: true
 
+- title: "Chicago has a market for parking reform"
+  publication: A City That Works
+  date: 2025-07-31
+  url: "https://citythatworks.substack.com/p/chicago-has-a-market-for-parking"
+  description: "Data analysis of 900+ residential projects showing developers embrace low-parking housing. Examines Chicago's July 2025 parking reform ordinance and market demand for transit-oriented development."
+  style: Quantitative
+  region: Chicago
+  topics:
+    - Parking
+    - Zoning Reform
+    - Data Visualization
+  featured: true
+
+- title: "Minneapolis Has More Households Than Ever Before"
+  publication: Streets.mn
+  date: 2025-05-19
+  url: "https://streets.mn/2025/05/19/minneapolis-has-more-households/"
+  description: "Analysis of how Minneapolis has reached record household numbers, examining how housing needs are increasing even faster than population growth."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Neighborhood Change
+    - Data Visualization
+
+- title: "Is Minneapolis' Housing Market Suffering From Success?"
+  publication: Streets.mn
+  date: 2025-02-14
+  url: "https://streets.mn/2025/02/14/minneapolis-housing-market-suffers-from-success/"
+  description: "Examines the slowdown in Twin Cities housing construction, with steep permit declines in 2024 due to macroeconomic conditions."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
 - title: "How Logan Square shrank"
   publication: Pencilling Out
   date: 2024-11-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Analysis of population decline in Logan Square using Census data, examining deconversions, household size dynamics, and housing unit changes."
   style: Quantitative
   region: Chicago
@@ -34,7 +68,7 @@
 - title: "Family growth, deconversions and housing supply in North Center"
   publication: Pencilling Out
   date: 2025-01-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Neighborhood-level analysis of housing and demographic data in North Center, examining the relationship between family growth and housing supply changes."
   style: Quantitative
   region: Chicago
@@ -43,11 +77,11 @@
     - Neighborhood Change
   featured: true
 
-- title: "Minneapolis' Natural Upzoning Experiment"
+- title: "Mapping Minneapolis' Post-2040 Plan Duplexes and Triplexes"
   publication: Streets.mn
-  date: 2024-07-01
-  url: "https://streets.mn/"  # Update with actual URL
-  description: "Mapping and statistical analysis of building permits and housing development patterns following the Minneapolis 2040 comprehensive plan."
+  date: 2023-10-24
+  url: "https://streets.mn/2023/10/24/mapping-minneapolis-duplexes-and-triplexes/"
+  description: "Mapping and statistical analysis of building permits post-2040 Plan. Over 2.5 years of data shows 72 new duplexes and 37 triplexes built, representing 255 housing units."
   style: Quantitative
   region: Twin Cities
   topics:
@@ -56,10 +90,20 @@
     - Data Visualization
   featured: true
 
+- title: "Saint Paul's zoning reforms show some early results"
+  publication: Pencilling Out
+  date: 2025-02-01
+  url: "https://pencillingout.substack.com/"
+  description: "Early quantitative evaluation of Saint Paul's zoning reform implementation, examining permit data and development patterns."
+  style: Quantitative
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
 - title: "Map of the Day: Substandard Lot Sizes in Minneapolis"
   publication: Streets.mn
   date: 2020-11-01
-  url: "https://streets.mn/"  # Update with actual URL
+  url: "https://streets.mn/"
   description: "Parcel-level data analysis and visualization examining lot size distributions and zoning nonconformity across Minneapolis neighborhoods."
   style: Quantitative
   region: Twin Cities
@@ -67,34 +111,150 @@
     - Lot Size
     - Data Visualization
 
-- title: "Saint Paul's zoning reforms show some early results"
-  publication: Pencilling Out
-  date: 2025-02-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
-  description: "Early quantitative evaluation of Saint Paul's zoning reform implementation, examining permit data and development patterns."
-  style: Quantitative
-  region: Twin Cities
-  topics:
-    - Zoning Reform
-
-- title: "Solving Minneapolis' Housing Affordability Impasse"
-  publication: Streets.mn
-  date: 2025-07-01
-  url: "https://streets.mn/"  # Update with actual URL
-  description: "Rent data analysis and examination of parking construction trends to understand affordability dynamics in Minneapolis."
-  style: Quantitative
-  region: Twin Cities
-  topics:
-    - Zoning Reform
-
 # =============================================================================
 # POLICY ADVOCACY & ARGUMENTATION
 # =============================================================================
 
+- title: "St. Paul needs to reform its rent stabilization policy to revive development"
+  publication: Minnesota Reformer
+  date: 2025-04-10
+  url: "https://minnesotareformer.com/2025/04/10/st-paul-needs-to-reform-its-rent-stabilization-policy-to-revive-development/"
+  description: "Policy analysis of St. Paul's rent stabilization ordinance, examining how the 2021 ballot initiative and subsequent exemptions have affected development."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Rent Stabilization
+    - Zoning Reform
+
+- title: "St. Paul can hang its hat on some recent development successes"
+  publication: MinnPost
+  date: 2025-02-13
+  url: "https://www.minnpost.com/community-voices/2025/02/st-paul-can-hang-its-hat-on-some-recent-development-successes/"
+  description: "Commentary on recent policy changes enabling new development in St. Paul, highlighting projects that would have been illegal just a few years ago."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+    - Missing Middle
+
+- title: "A liberalism that builds: Minnesota should embrace abundance"
+  publication: Minnesota Reformer
+  date: 2024-10-03
+  url: "https://minnesotareformer.com/2024/10/03/a-liberalism-that-builds-minnesota-needs-to-embrace-abundance/"
+  description: "Assesses Minnesota's progressive accomplishments through the lens of abundance, arguing for a liberalism focused on building rather than restricting."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "Who Pays for Inclusionary Zoning?"
+  publication: Streets.mn
+  date: 2024-10-03
+  url: "https://streets.mn/2024/10/03/who-pays-for-inclusionary-zoning/"
+  description: "Part 1 of a two-part series examining the economics of inclusionary zoning and who bears the costs of affordable housing mandates."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Inclusionary Zoning
+
+- title: "Assessing Minneapolis' Inclusionary Zoning Policy"
+  publication: Streets.mn
+  date: 2024-10-16
+  url: "https://streets.mn/2024/10/16/assessing-minneapolis-inclusionary-zoning-policy/"
+  description: "Part 2 of inclusionary zoning series. Policy evaluation of Minneapolis's requirements, examining implementation outcomes and design considerations."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Inclusionary Zoning
+
+- title: "Don't trust the locals"
+  publication: Minnesota Reformer
+  date: 2024-04-04
+  url: "https://minnesotareformer.com/2024/04/04/dont-trust-the-locals/"
+  description: "Argues against deferring to local control on housing policy, examining how localism can obstruct needed housing development."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "Zoning Reform Takes a Positive First Step at the Legislature"
+  publication: Streets.mn
+  date: 2024-02-29
+  url: "https://streets.mn/2024/02/29/zoning-reform-takes-positive-first-step/"
+  description: "Legislative analysis of HF4246, Minnesota's state-level zoning reform bill, including perspectives from testimony at the Legislature."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "Ending minimum parking requirements was a policy win for the Twin Cities"
+  publication: Minnesota Reformer
+  date: 2023-08-31
+  url: "https://minnesotareformer.com/2023/08/31/ending-minimum-parking-requirements-was-a-policy-win-for-the-twin-cities/"
+  description: "Analysis of Minneapolis and St. Paul's elimination of parking minimums, arguing this reform reduces construction costs and supports housing affordability."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Parking
+    - Zoning Reform
+
+- title: "In St. Paul, Zoning Discourse Has Developed for the Better"
+  publication: Streets.mn
+  date: 2023-07-05
+  url: "https://streets.mn/2023/07/05/st-paul-zoning-discourse/"
+  description: "Examines St. Paul's progress toward legalizing missing middle housing and how local discourse around zoning has improved."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+    - Missing Middle
+
+- title: "St. Paul's Summit Avenue rules unwelcoming to St. Thomas students"
+  publication: MinnPost
+  date: 2023-05-10
+  url: "https://www.minnpost.com/community-voices/2023/05/st-pauls-summit-avenue-rules-unwelcoming-to-st-thomas-students/"
+  description: "Argues that successful communities should welcome newcomers rather than exclude them, examining zoning restrictions near universities."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "Commissioner Daubenberger, tear down that highway!"
+  publication: Minnesota Reformer
+  date: 2023-04-25
+  url: "https://minnesotareformer.com/2023/04/25/commissioner-daubenberger-tear-down-that-highway/"
+  description: "Co-authored with Joe Harrington. Argues for reconsidering I-94 in Minneapolis and Saint Paul as the highway reaches the end of its useful life. Won first place for editorials at 2024 MN SPJ Page One awards."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Transportation
+
+- title: "ADUs Are Working Great - Just Not for the Twin Cities"
+  publication: Streets.mn
+  date: 2023-03-29
+  url: "https://streets.mn/2023/03/29/adus-are-working-great/"
+  description: "Examines why accessory dwelling units have succeeded in LA and Seattle but Minneapolis and St. Paul have seen minimal ADU construction."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Missing Middle
+    - Zoning Reform
+
+- title: "The site of 1841 Lincoln Ave. in St. Paul is big enough for two homes, but 'wonky' zoning is preventing expansion"
+  publication: MinnPost
+  date: 2022-11-29
+  url: "https://www.minnpost.com/community-voices/2022/11/the-site-of-1841-lincoln-ave-in-st-paul-is-big-enough-for-two-homes-but-wonky-zoning-is-preventing-expansion/"
+  description: "Case study of how inconsistent lot size requirements block housing development, even when neighboring lots don't meet minimum standards."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Lot Size
+    - Zoning Reform
+
 - title: "Minneapolis Should Get Rid of Minimum Lot Size Requirements"
   publication: Streets.mn
   date: 2020-10-01
-  url: "https://streets.mn/"  # Update with actual URL
+  url: "https://streets.mn/"
   description: "Policy argument for eliminating minimum lot size requirements, supported by data analysis of their effects on housing supply and affordability."
   style: Policy
   region: Twin Cities
@@ -102,42 +262,32 @@
     - Lot Size
     - Zoning Reform
 
-- title: "Who Pays for Inclusionary Zoning?"
-  publication: Pencilling Out
-  date: 2024-10-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
-  description: "Theoretical and empirical analysis of inclusionary zoning policy incidence, examining who bears the costs of affordable housing mandates."
-  style: Policy
-  region: Comparative
-  topics:
-    - Inclusionary Zoning
-
-- title: "Assessing Minneapolis' Inclusionary Zoning Policy"
-  publication: Streets.mn
-  date: 2024-10-01
-  url: "https://streets.mn/"  # Update with actual URL
-  description: "Policy evaluation of Minneapolis's inclusionary zoning requirements, examining implementation outcomes and design considerations."
-  style: Policy
-  region: Twin Cities
-  topics:
-    - Inclusionary Zoning
-
 - title: "The 2040 Plan Can Deliver on Denser Housing"
   publication: Southwest Voices
   date: 2023-01-01
-  url: "#"  # Update with actual URL
-  description: "Policy assessment and advocacy piece examining the Minneapolis 2040 plan's potential to increase housing density and affordability."
+  url: "https://www.southwestvoices.news/posts/2040-plan-can-deliver-on-denser-housing"
+  description: "Policy assessment examining the Minneapolis 2040 plan's potential to increase housing density and affordability."
   style: Policy
   region: Twin Cities
   topics:
     - Zoning Reform
     - Missing Middle
 
-- title: "Zoning Reform Takes a Positive First Step at the Legislature"
-  publication: Streets.mn
-  date: 2024-02-01
-  url: "https://streets.mn/"  # Update with actual URL
-  description: "Legislative analysis of HF4246, Minnesota's state-level zoning reform bill, including perspectives from testimony at the Legislature."
+- title: "Minneapolis has a housing shortage. Here's why."
+  publication: Southwest Voices
+  date: 2023-01-01
+  url: "https://www.southwestvoices.news/posts/challenges-to-affordable-housing-housing-shortages"
+  description: "Part of a five-part series on challenges to affordable housing in Minneapolis, examining the different types of housing shortages."
+  style: Policy
+  region: Twin Cities
+  topics:
+    - Zoning Reform
+
+- title: "It's not easy to build a bunch of cheap housing quickly in Minneapolis"
+  publication: Southwest Voices
+  date: 2023-01-01
+  url: "https://www.southwestvoices.news/posts/its-not-easy-to-build-a-bunch-of-cheap-housing-quickly-in-minneapolis"
+  description: "Examines the structural barriers to building affordable housing quickly, including costs of land, labor, and materials."
   style: Policy
   region: Twin Cities
   topics:
@@ -146,7 +296,7 @@
 - title: "A history of zoning in Chicago: three takeaways"
   publication: Pencilling Out
   date: 2025-05-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Historical analysis of Chicago's zoning evolution, examining Planned Developments, aldermanic privilege, and institutional path dependencies."
   style: Policy
   region: Chicago
@@ -157,10 +307,20 @@
 # URBAN LIFE & COMMENTARY
 # =============================================================================
 
+- title: "New Research Highlights the Problems of Urban Freeways"
+  publication: Streets.mn
+  date: 2023-04-26
+  url: "https://streets.mn/2023/04/26/problems-of-urban-freeways/"
+  description: "Reviews research on urban freeways as I-94 is reconsidered, examining proposals for land bridges and multi-modal boulevards."
+  style: Commentary
+  region: Twin Cities
+  topics:
+    - Transportation
+
 - title: "Comparing Chicago's Bean to Twin Cities public art"
   publication: Racket
   date: 2024-01-01
-  url: "#"  # Update with actual URL
+  url: "#"
   description: "Cultural essay comparing public art and urban identity in Chicago and the Twin Cities, examining how cities express themselves through shared spaces."
   style: Commentary
   region: Comparative
@@ -169,7 +329,7 @@
 - title: "On immigration and a more positive-sum future"
   publication: Star Tribune / Pencilling Out
   date: 2024-11-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Personal narrative and policy reflection on immigration, combining personal experience with broader arguments about urban growth and economic dynamism."
   style: Commentary
   region: Comparative
@@ -178,7 +338,7 @@
 - title: "My 2024 year in books"
   publication: Pencilling Out
   date: 2024-12-01
-  url: "https://pencillingout.substack.com/"  # Update with actual URL
+  url: "https://pencillingout.substack.com/"
   description: "Reflections on a year of reading focused on urban history, housing economics, and the intellectual development of my policy perspective."
   style: Commentary
   region: Comparative

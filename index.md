@@ -14,7 +14,7 @@ title: About
   </div>
 </div>
 
-<section class="home-section">
+<section class="home-section" markdown="1">
 
 ## What I Do
 
@@ -26,7 +26,7 @@ My writing spans three modes: **quantitative research** that digs into demograph
 
 </section>
 
-<section class="home-section">
+<section class="home-section" markdown="1">
 
 ## Background
 
@@ -37,30 +37,29 @@ Now based in Chicago, I continue writing at [Pencilling Out](https://pencillingo
 </section>
 
 <section class="home-section">
-
-## Featured Work
+<h2>Featured Work</h2>
 
 <div class="featured-item">
-  <h3><a href="#">Minneapolis' Natural Upzoning Experiment</a></h3>
-  <p class="meta">Streets.mn · July 2024</p>
-  <p>Mapping and statistical analysis of building permits and housing development patterns following the Minneapolis 2040 comprehensive plan.</p>
+  <h3><a href="https://streets.mn/2023/10/24/mapping-minneapolis-duplexes-and-triplexes/">Mapping Minneapolis' Post-2040 Plan Duplexes and Triplexes</a></h3>
+  <p class="meta">Streets.mn · October 2023</p>
+  <p>Mapping and statistical analysis of building permits post-2040 Plan. Over 2.5 years of data shows 72 new duplexes and 37 triplexes built.</p>
 </div>
 
 <div class="featured-item">
-  <h3><a href="#">Family growth, deconversions and housing supply in North Center</a></h3>
+  <h3><a href="https://pencillingout.substack.com/">Family growth, deconversions and housing supply in North Center</a></h3>
   <p class="meta">Pencilling Out · January 2025</p>
   <p>Neighborhood-level analysis examining the relationship between family growth and housing supply changes in a Chicago community area.</p>
 </div>
 
 <div class="featured-item">
-  <h3><a href="#">Chicago's downtown family boom</a></h3>
-  <p class="meta">Pencilling Out · November 2025</p>
-  <p>Census data analysis of family growth in downtown Chicago, housing unit composition by bedroom count, and demographic shifts.</p>
+  <h3><a href="https://citythatworks.substack.com/p/chicago-has-a-market-for-parking">Chicago has a market for parking reform</a></h3>
+  <p class="meta">A City That Works · July 2025</p>
+  <p>Data analysis of 900+ residential projects showing developers embrace low-parking housing in Chicago.</p>
 </div>
 
 </section>
 
-<section class="home-section">
+<section class="home-section" markdown="1">
 
 ## Get in Touch
 
