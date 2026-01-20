@@ -29,13 +29,13 @@ My writing spans three modes: **quantitative research** that digs into demograph
 
 ## Background
 
-I graduated from **Macalester College** in 2024 with a major in Economics and a minor Music. During my time in St. Paul, I became deeply engaged with Twin Cities housing policy—writing for a variety of local outlets. I also had first-hand engagement with state and local public policy, serving as a board member with Sustain Saint Paul, interning with local community development organizations, and volunteering in support of multiple urbanist-oriented policy efforts.
+I graduated from **Macalester College** in 2024 with a major in Economics and a minor Music. During my time in St. Paul, I became deeply engaged with Twin Cities housing policy, writing on these topics for a variety of local outlets. I also had first-hand engagement with state and local public policy, serving as a board member with Sustain Saint Paul, interning with local community development organizations, and volunteering in support of multiple urbanist-oriented policy efforts.
 
 I'm now based in Chicago, writing at the Substack [Pencilling Out](https://pencillingout.substack.com).
 
-In my day job, I'm a research assistant with the Financial Economics group at the Federal Reserve Bank of Chicago. In this role, I contribute to research projects focused on homeowners' insurance and mortgage access, as well as corporate finance. 
+In my day job, I'm a research assistant with the Financial Economics group at the Federal Reserve Bank of Chicago. I contribute to academic research projects focused on homeowners' insurance and mortgage access, as well as corporate finance. 
 
-The views expressed in articles and other content on this website are those of the authors and don't necessarily reflect the position of the Federal Reserve Bank of Chicago or the Federal Reserve System.
+The views expressed in articles and other content on this website are my own, and don't reflect the views of the Federal Reserve Bank of Chicago or the Federal Reserve System.
 
 </section>
 
