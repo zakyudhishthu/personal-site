@@ -10,25 +10,15 @@ permalink: /research/
 I combine quantitative methods with accessible policy writing to make housing research useful for practitioners, advocates, and interested readers. My work emphasizes:
 
 - **Census & ACS data** at the tract level for demographic and housing analysis
+- **Local Public Data** on housing development and policy
 - **R programming** for statistical analysis, visualization, and spatial work
-- **Hedonic regression** to isolate policy effects on housing prices and characteristics
-- **Residualized bins** for communicating regression results visually
 - **Clear translation** of statistical findings into policy recommendations
-
-<details class="methodology-note">
-<summary>A note on methodology</summary>
-<div class="methodology-content" markdown="1">
-
-My approach prioritizes both rigor and accessibility. I use standard econometric techniques—hedonic regression, difference-in-differences where appropriate, careful attention to confounding—while presenting results in ways that policy audiences can understand and use. The "residualized bins" approach, for instance, allows me to show regression relationships visually while controlling for covariates.
-
-</div>
-</details>
 
 ---
 
 ## Research Areas
 
-<h3>Twin Cities (2020–2024)</h3>
+<h3>Twin Cities </h3>
 
 <div class="card-grid">
 
@@ -104,7 +94,7 @@ Beyond specific policy questions, I'm interested in:
 
 ---
 
-## Sample Visualizations
+## Article Gallery
 
 <div class="viz-gallery">
 
