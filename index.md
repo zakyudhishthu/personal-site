@@ -17,9 +17,8 @@ title: About
 
 ## What I Do
 
-I analyze housing markets and urban policy using various public datasets and data analysis tools, primarily using R. I aspire to cmobine rigorous quantitative analysis with accessible policy writing.
+I analyze housing markets and urban policy using various public datasets and data analysis tools, primarily using R. I aspire to combine rigorous quantitative analysis with accessible policy writing.
 
-Initially, my geographic focus 
 My geographic focus has evolved from the **Twin Cities**, where I was involved in local housing advocacy and served on the board of Sustain Saint Paul, to **Chicago**, where I now work as an economic research assistant and continue to write about neighborhood change and housing dynamics.
 
 My writing spans three modes: **quantitative research** that digs into demographic trends and housing data, **policy advocacy** that makes the case for specific reforms, and **broader commentary** on urban life and the intellectual questions that animate this work.
