@@ -104,35 +104,6 @@ Beyond specific policy questions, I'm interested in:
 
 ---
 
-## Data Sources & Tools
-
-<div class="two-column" markdown="1">
-
-<div markdown="1">
-
-**Primary Data Sources**
-- American Community Survey (1-year and 5-year estimates)
-- Decennial Census
-- IPUMS NHGIS for historical tract data
-- Local permit and parcel data
-- CoStar and Zillow for market data
-
-</div>
-
-<div markdown="1">
-
-**Technical Stack**
-- **R** (tidyverse, ggplot2, sf, tidycensus)
-- Statistical methods (OLS, hedonic regression, diff-in-diff)
-- GIS and spatial analysis
-- Git/GitHub for version control
-
-</div>
-
-</div>
-
----
-
 ## Sample Visualizations
 
 <div class="viz-gallery">
